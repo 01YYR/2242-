@@ -20,3 +20,10 @@ git log 查看版本记录
 
 git status 查看当前版本库的状态
 
+git restore file   撤销工作区的修改
+git restore --staged file  撤销暂存区的修改
+
+版本回退
+git reset --hard HEAD^^^
+git reset --hard xxxyyzz
+
